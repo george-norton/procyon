@@ -1,0 +1,3 @@
+[submodule "vik"]
+	path = vik
+	url = https://github.com/sadekbaroudi/vik.git
