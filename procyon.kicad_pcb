@@ -5135,7 +5135,7 @@
 		)
 		(pad "" smd roundrect
 			(at -1.5 -1.5 270)
-			(size 1.5 1.5)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
@@ -5143,7 +5143,7 @@
 		)
 		(pad "" smd roundrect
 			(at -1.5 0 180)
-			(size 0.9 1.5)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
@@ -5151,7 +5151,7 @@
 		)
 		(pad "" smd roundrect
 			(at -1.5 1.5 270)
-			(size 1.5 1.5)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
@@ -5159,7 +5159,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0 -1.5 270)
-			(size 0.9 1.5)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
@@ -5167,7 +5167,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0 0 270)
-			(size 0.9 0.9)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
@@ -5175,7 +5175,7 @@
 		)
 		(pad "" smd roundrect
 			(at 0 1.5 270)
-			(size 0.9 1.5)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
@@ -5183,7 +5183,7 @@
 		)
 		(pad "" smd roundrect
 			(at 1.5 -1.5 270)
-			(size 1.5 1.5)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
@@ -5191,7 +5191,7 @@
 		)
 		(pad "" smd roundrect
 			(at 1.5 0 180)
-			(size 0.9 1.5)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
@@ -5199,7 +5199,7 @@
 		)
 		(pad "" smd roundrect
 			(at 1.5 1.5 270)
-			(size 1.5 1.5)
+			(size 1.2 1.2)
 			(layers "F.Paste")
 			(roundrect_rratio 0.1538461538)
 			(thermal_bridge_angle 45)
