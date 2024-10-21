@@ -23,7 +23,7 @@
       "otherItems": false,
       "pads": false,
       "text": true,
-      "tracks": true,
+      "tracks": false,
       "vias": true,
       "zones": false
     },
