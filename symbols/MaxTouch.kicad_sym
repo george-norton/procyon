@@ -6,16 +6,17 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "mXT336UD-MAU002"
-			(at 0 0 0)
+		(property "Reference" "U1"
+			(at 2.1941 -64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" ""
-			(at 13.97 45.72 0)
+		(property "Value" "mXT336UD-MAU002"
+			(at -1.27 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42,6 +43,15 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5555867"
+			(at 2.1941 -64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -701,7 +711,7 @@
 						)
 					)
 				)
-				(number "40"
+				(number "41"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -719,7 +729,7 @@
 						)
 					)
 				)
-				(number "41"
+				(number "42"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -737,7 +747,7 @@
 						)
 					)
 				)
-				(number "42"
+				(number "43"
 					(effects
 						(font
 							(size 1.27 1.27)
