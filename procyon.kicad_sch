@@ -7441,7 +7441,6 @@
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 220.98 62.23 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -7449,7 +7448,7 @@
 		(dnp no)
 		(uuid "70daa167-332e-4019-8981-9eda8cda88d0")
 		(property "Reference" "JP2"
-			(at 218.44 63.5001 90)
+			(at 218.44 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7458,7 +7457,7 @@
 			)
 		)
 		(property "Value" "PWR"
-			(at 246.888 71.628 90)
+			(at 246.888 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
