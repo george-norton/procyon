@@ -283,7 +283,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0e40ef9d-7e36-40ea-8719-3c77b791214c")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -411,7 +411,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/c945c626-a216-4b76-accd-b07bf78d5a91")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -624,7 +624,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/29164da5-b6b5-4f51-8756-6c2765833d21")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -752,7 +752,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d372a10c-da6c-4513-bf5a-714abe926839")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -978,7 +978,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c759afdf-28c7-43b7-b3a3-ef7b01526271")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -1191,7 +1191,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/005561f4-7717-4bf3-8130-4c940e207ba9")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -1308,7 +1308,7 @@
 		(property ki_fp_filters "Net*Tie*")
 		(path "/af8fb4c9-6eb6-4026-8cea-5cd716e2bd04")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(zone_connect 2)
 		(attr exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(net_tie_pad_groups "1, 2")
@@ -1426,7 +1426,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7718df6f-76a1-4196-868c-98959cdca1b2")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -1639,7 +1639,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/62d59514-8908-493f-8799-973d7ad6e34f")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -1767,7 +1767,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/45da394f-8382-4735-9568-b443b2714714")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -1993,7 +1993,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/bcf407ef-b376-4998-964d-1094c24584f7")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -2217,7 +2217,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/048ea5f0-6e19-4157-b98d-6cf495adf872")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -2430,7 +2430,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/a02768e0-d97a-475f-ae18-bebff43fea98")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -2558,7 +2558,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/632ab68d-45bc-4c68-b8c8-6b4a40b7a0a1")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -2784,7 +2784,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/d76e337a-0f3e-4ab8-8dc6-4240bbc8f2cb")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -3008,7 +3008,7 @@
 		(property ki_fp_filters "SOT?23*")
 		(path "/ce163e04-4c31-4740-894b-31357a411850")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0 -1.560001)
@@ -3275,7 +3275,7 @@
 		(property ki_fp_filters "SolderJumper*Bridged12*")
 		(path "/70daa167-332e-4019-8981-9eda8cda88d0")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
@@ -3602,7 +3602,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/ec9978fa-b97a-48be-8e8a-39f2ac6b59c6")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -3828,7 +3828,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/ec0e5a2c-3249-4edc-be08-1255e2001775")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -4041,7 +4041,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/9c4f0345-65dd-44b6-8ddc-2f07d8bc02a4")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -4169,7 +4169,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b683c933-47b2-429c-a28c-1a0d7a7713bb")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4319,7 +4319,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 2.56 0 360)
+			(at 2.56 0 0)
 			(layer "F.SilkS")
 			(uuid "ea2e79d1-fc26-4515-aad3-a66d604fad09")
 			(effects
@@ -4330,7 +4330,7 @@
 			)
 		)
 		(property "Value" "2.2nF"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f11bda35-a41f-48bd-a28b-21d932844640")
 			(effects
@@ -4395,7 +4395,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/2a85fcaa-5b02-4423-8cbc-e506bec27372")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 0.51)
@@ -4498,7 +4498,7 @@
 			(uuid "72e009e1-9599-4311-8fb9-aaf469fbafb6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c459547a-c120-4f17-9439-8853b817b095")
 			(effects
@@ -4608,7 +4608,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/3a0d79bb-1a10-432f-a162-4dc6db3658d3")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -4736,7 +4736,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/a7f0ab00-da61-4f4a-8a2a-93fb201457c3")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -4959,7 +4959,7 @@
 		)
 		(path "/492fb8fa-1b81-4802-9843-20f0b41c2cac")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 5.5 -2.2)
@@ -5320,7 +5320,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d3bc01c9-aee5-43fb-9686-497e5ab11b90")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -5533,7 +5533,7 @@
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0e1128cb-58af-4219-b50a-95037a625f6a")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -5661,7 +5661,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/757e3197-72b2-4329-a199-d8f059dd5145")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.140581 -0.51)
@@ -5879,7 +5879,7 @@
 		)
 		(path "/e0136f9a-7317-4f9c-bb97-62a0a1b06bd8")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(zone_connect 2)
 		(attr smd)
 		(fp_line
@@ -6997,7 +6997,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5c6a49ba-157a-4d8b-b947-382285c61cdd")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd exclude_from_pos_files)
 		(fp_text user "${REFERENCE}"
 			(at 0 4 0)
@@ -7168,7 +7168,7 @@
 		(property ki_fp_filters "SolderJumper*Bridged12*")
 		(path "/cc9027cc-275e-4717-b385-008632cc2b39")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(zone_connect 1)
 		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
@@ -7493,7 +7493,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3cc0ef8c-8dd2-4f0c-83e3-5077be171fbb")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -7719,7 +7719,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/333a671a-045f-4e22-aed8-a4dfbb7fc835")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -7945,7 +7945,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/aa44ffbc-77d2-471a-aee3-718c2dcd1853")
 		(sheetname "Root")
-		(sheetfile "procyon.kicad_sch")
+		(sheetfile "procyon_42x50.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)

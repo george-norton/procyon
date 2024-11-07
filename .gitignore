@@ -1,3 +1,8 @@
 fp-info-cache
 *backups
 *.lck
+*_old
+fabrication-toolkit-options.json
+jlcpcb
+production
+surface
