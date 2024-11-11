@@ -448,7 +448,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "procyon.kicad_pro",
+    "filename": "procyon_57x80.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -505,6 +505,10 @@
       {
         "netclass": "RowCol",
         "pattern": "/Col*"
+      },
+      {
+        "netclass": "RowCol",
+        "pattern": "/X8"
       }
     ]
   },
