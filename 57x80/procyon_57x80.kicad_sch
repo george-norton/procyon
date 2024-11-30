@@ -2521,6 +2521,151 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_FET:AO3401A"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3208,10 +3353,6 @@
 		(uuid "617ccdd5-7391-4ce4-afef-010a4e084093")
 	)
 	(no_connect
-		(at 81.28 180.34)
-		(uuid "7ce2919a-4711-4abe-ad64-68d00cbcb93f")
-	)
-	(no_connect
 		(at 172.72 133.35)
 		(uuid "8c0136ae-c8a5-4867-a038-1e8ad96d03ae")
 	)
@@ -3226,10 +3367,6 @@
 	(no_connect
 		(at 135.89 172.72)
 		(uuid "d8d76e82-84b6-4ec7-beb9-2171022920a1")
-	)
-	(no_connect
-		(at 81.28 175.26)
-		(uuid "eea3c59a-0a00-4ecc-b333-d6c8864b5c8a")
 	)
 	(no_connect
 		(at 135.89 180.34)
@@ -3364,6 +3501,16 @@
 			(type default)
 		)
 		(uuid "16b0062b-a454-4c0a-8272-01122d362186")
+	)
+	(wire
+		(pts
+			(xy 167.64 40.64) (xy 168.91 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c241a2-3701-42cc-a9ec-2f5e42f4d42d")
 	)
 	(wire
 		(pts
@@ -3947,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 139.7) (xy 242.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d67be7d-7a33-4872-a352-2f9d11023f5c")
+	)
+	(wire
+		(pts
 			(xy 88.9 58.42) (xy 95.25 58.42)
 		)
 		(stroke
@@ -4257,6 +4414,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 146.05) (xy 242.57 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e89be2-2c81-4866-96ce-9ce6dcfce2d9")
+	)
+	(wire
+		(pts
 			(xy 78.74 43.18) (xy 78.74 45.72)
 		)
 		(stroke
@@ -4334,6 +4501,16 @@
 			(type default)
 		)
 		(uuid "c537a638-d6c2-470f-a0b5-ca1facae2404")
+	)
+	(wire
+		(pts
+			(xy 180.34 40.64) (xy 179.07 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b4f509-b984-4d95-8240-440c2bf74a1f")
 	)
 	(wire
 		(pts
@@ -4718,6 +4895,18 @@
 		(uuid 4cf7670a-763e-4c26-be68-6e648f033b53)
 	)
 	(rectangle
+		(start 156.21 26.67)
+		(end 193.04 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 683e6ad7-36bd-4135-b485-71ee55c52fe1)
+	)
+	(rectangle
 		(start 186.69 80.01)
 		(end 226.06 105.41)
 		(stroke
@@ -4755,7 +4944,7 @@
 	)
 	(rectangle
 		(start 228.6 80.01)
-		(end 260.35 144.78)
+		(end 260.35 149.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -4831,6 +5020,17 @@
 			(justify left)
 		)
 		(uuid "541767a8-31fa-4836-95df-28642de16f39")
+	)
+	(text "Optional Button"
+		(exclude_from_sim no)
+		(at 157.226 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "570f4c28-13c9-4325-909b-9e370123f9c0")
 	)
 	(text "I2C pullups"
 		(exclude_from_sim no)
@@ -4930,6 +5130,17 @@
 		)
 		(uuid "03593083-2aa4-4ba9-9552-50a9f3144486")
 	)
+	(label "GPIO3"
+		(at 241.3 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03c166eb-e5ea-41a0-bd79-805e90c810d1")
+	)
 	(label "Y18"
 		(at 135.89 167.64 0)
 		(fields_autoplaced yes)
@@ -5006,6 +5217,28 @@
 			(justify left bottom)
 		)
 		(uuid "2a6fe5aa-98f2-4b58-89bf-ad419868b932")
+	)
+	(label "GPIO4"
+		(at 81.28 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c09438f-045b-46d5-b084-33636f274d3d")
+	)
+	(label "GPIO4"
+		(at 167.64 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "302fce89-d7b9-486c-9ed8-6af10de8fd4e")
 	)
 	(label "POWER_CONTROL"
 		(at 240.03 62.23 0)
@@ -5138,6 +5371,17 @@
 			(justify left bottom)
 		)
 		(uuid "5e7efb86-e7d3-46fe-8783-eded8aa9ecfb")
+	)
+	(label "GPIO3"
+		(at 81.28 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62faff67-baf0-4e7a-85e7-fb778062d610")
 	)
 	(label "SDA"
 		(at 173.99 63.5 0)
@@ -5380,6 +5624,17 @@
 			(justify right bottom)
 		)
 		(uuid "b1d236b6-bbec-4e62-9009-24bd1f13bfde")
+	)
+	(label "GPIO4"
+		(at 241.3 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8f46a83-2492-415e-ad47-c7968894efab")
 	)
 	(label "Y9"
 		(at 135.89 144.78 0)
@@ -8302,6 +8557,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 173.99 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f0c361d-4839-4889-8e90-30d1cc50c92d")
+		(property "Reference" "SW1"
+			(at 173.99 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_EVQQ2"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 173.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c3ae4c1e-35d5-48fe-9d4c-f39a60bea438")
+		)
+		(pin "2"
+			(uuid "df9dd47a-1083-4937-9418-047517b514cc")
+		)
+		(instances
+			(project ""
+				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 242.57 114.3 270)
 		(unit 1)
@@ -9748,6 +10071,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 180.34 40.64 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d91d7e17-786d-4f06-8bcc-18d0df7460c1")
+		(property "Reference" "#PWR028"
+			(at 186.69 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.658 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a7cb296-f0a1-4bdc-8203-0ccc33441009")
+		)
+		(instances
+			(project "procyon_57x80"
+				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MaxTouch:mXT336UD-MAU002")
 		(at 107.95 125.73 0)
 		(unit 1)
@@ -10230,6 +10619,138 @@
 			(project "trackpad"
 				(path "/3796446b-0052-4d89-b512-07a2e9135d0d/2780c9a8-e5e0-42e8-93d7-9eb6f8aa439b"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 242.57 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f85e0065-7246-4597-87f0-5970268f77d9")
+		(property "Reference" "TP10"
+			(at 247.65 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.65 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 242.57 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f6f9280-d0a0-4313-9b97-5b6293cdafb4")
+		)
+		(instances
+			(project "procyon_57x80"
+				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 242.57 139.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fdc03f1c-a1f3-4054-b474-2c2ee6f77db2")
+		(property "Reference" "TP9"
+			(at 247.65 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.65 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 242.57 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5de95ce3-4b98-45b6-a42b-dff36757700f")
+		)
+		(instances
+			(project "procyon_57x80"
+				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
