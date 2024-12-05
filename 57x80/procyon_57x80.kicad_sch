@@ -6565,88 +6565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 124.46 30.48 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "333a671a-045f-4e22-aed8-a4dfbb7fc835")
-		(property "Reference" "C8"
-			(at 121.92 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2µ"
-			(at 127 27.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 124.46 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23630"
-			(at 121.92 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a30831c5-3fe4-466c-a1d7-996312922cc6")
-		)
-		(pin "2"
-			(uuid "5749c69d-bf62-4eb2-af5c-05e1640a18e3")
-		)
-		(instances
-			(project ""
-				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-			(project "trackpad"
-				(path "/3796446b-0052-4d89-b512-07a2e9135d0d/2780c9a8-e5e0-42e8-93d7-9eb6f8aa439b"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 242.57 95.25 270)
 		(unit 1)
@@ -7276,6 +7194,82 @@
 			(project "procyon"
 				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.46 44.45 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a401a4e-3c8c-4fa4-b17b-39de8bd8be1e")
+		(property "Reference" "C8"
+			(at 121.92 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2µ"
+			(at 127 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 121.92 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e99758f6-c586-4525-9e0f-b58c8335da8e")
+		)
+		(pin "2"
+			(uuid "801c2f1e-9afd-4510-b4f3-cd6689710377")
+		)
+		(instances
+			(project "procyon_57x80"
+				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -8062,88 +8056,6 @@
 			(project "little_trackpad"
 				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 124.46 44.45 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7718df6f-76a1-4196-868c-98959cdca1b2")
-		(property "Reference" "C10"
-			(at 121.92 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.2µ"
-			(at 127 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 124.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23630"
-			(at 121.92 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99c34fa8-632f-401a-966a-b291185725e2")
-		)
-		(pin "2"
-			(uuid "8fde9cd5-6561-4f5b-8d01-7ba98b2c11d0")
-		)
-		(instances
-			(project ""
-				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-			(project "trackpad"
-				(path "/3796446b-0052-4d89-b512-07a2e9135d0d/2780c9a8-e5e0-42e8-93d7-9eb6f8aa439b"
-					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -9050,6 +8962,82 @@
 			(project ""
 				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 124.46 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afb84ce7-e753-4a98-93fa-596d15a5ef59")
+		(property "Reference" "C10"
+			(at 121.92 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2µ"
+			(at 127 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23630"
+			(at 121.92 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "184bd09a-0d18-4d88-9cb6-c4568a4e6292")
+		)
+		(pin "2"
+			(uuid "b65ca49e-28c3-412b-a481-2720eee4d35a")
+		)
+		(instances
+			(project "procyon_57x80"
+				(path "/22e83c18-ea75-4c5e-9dba-5c9f658130b9"
+					(reference "C10")
 					(unit 1)
 				)
 			)
