@@ -62,6 +62,22 @@ The mouse emulation gestures are implemented in software, they rely on various p
 
 If you flash the QMK debug firmware, you can use the [Maxtouch debug](https://github.com/george-norton/maxtouch-debug) tool to adjust the sensor tuning in real time and see how it works.
 
+## VIK certification
+
+| Category                | Classification          | Response           |
+| ----------------------- | ----------------------- | ------------------ |
+| FPC connector           | Required                | :heavy_check_mark: |
+| Breakout pins           | Recommended             | :x:                |
+| Uses: SPI               | Optional                | :heavy_check_mark: |
+| SPI used for SPI only   | Strongly recommended    | :heavy_check_mark: |
+| Uses: I2C               | Optional                | :heavy_check_mark: |
+| I2C used for I2C only   | Strongly Recommended    | :heavy_check_mark: |
+| I2C pull ups            | Required                | 3.3k               |
+| Uses: RGB               | Optional                | :x:                |
+| Uses: Extra GPIO 1      | Optional                | :heavy_check_mark: |
+| Uses: Extra GPIO 2      | Optional                | :heavy_check_mark: |
+| Standard PCB Size/Mount | Strongly recommended    | :x:                |
+
 ## Schematic
 
 ![Schematic](images/schematic.png)
